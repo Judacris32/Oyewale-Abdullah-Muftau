@@ -1,0 +1,37 @@
+{
+  "name": "oyewale-muftau-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfolio website for Oyewale Abdullah Muftau, data analyst. Designed and built by JayDev Studio.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fontsource-variable/fraunces": "5.3.0",
+    "@fontsource-variable/hanken-grotesk": "5.3.0",
+    "@fontsource/allura": "5.3.0",
+    "clsx": "2.1.1",
+    "framer-motion": "12.43.0",
+    "lucide-react": "0.577.0",
+    "next": "15.5.28",
+    "react": "19.1.10",
+    "react-dom": "19.1.10",
+    "zod": "3.25.76"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.1",
+    "@types/node": "22.20.5",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "^19.1.0",
+    "autoprefixer": "10.6.1",
+    "eslint": "9.39.5",
+    "eslint-config-next": "15.5.28",
+    "postcss": "8.5.31",
+    "tailwindcss": "3.4.19",
+    "typescript": "5.9.3"
+  }
+}
