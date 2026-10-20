@@ -4,6 +4,8 @@ const nextConfig = {
   poweredByHeader: false,
   images: {
     formats: ["image/avif", "image/webp"],
+    // Image qualities the site uses: 75 is the default, 85 is used for the "What I do" card photos.
+    qualities: [75, 85],
   },
   async redirects() {
     return [
